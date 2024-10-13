@@ -7,13 +7,12 @@ VALUES
     ('Luis Torres', 'luis.torres@example.com', 'Admin', GETDATE(), NULL, NULL);
 
 INSERT INTO ESTUDIANTES (IDENTIFICACION, NOMBRE, PRIMER_APELLIDO, SEGUNDO_APELLIDO, FECHA_NACIMIENTO, ADICIONADO_POR, FECHA_ADICION, MODIFICADO_POR, FECHA_MODIFICACION)
-VALUES 
-    ('001', 'Juan', 'Pérez', 'López', '2000-05-15', 'Admin', GETDATE(), NULL, NULL),
-    ('002', 'María', 'Gómez', 'Sánchez', '1999-03-10', 'Admin', GETDATE(), NULL, NULL),
-    ('003', 'Carlos', 'Rodríguez', 'Martínez', '2001-07-20', 'Admin', GETDATE(), NULL, NULL),
-    ('004', 'Ana', 'Martínez', 'Hernández', '2002-11-25', 'Admin', GETDATE(), NULL, NULL),
-    ('005', 'Luis', 'Torres', 'Fernández', '2000-01-05', 'Admin', GETDATE(), NULL, NULL);
-
+VALUES
+('123456789', 'Juan', 'Pérez', 'González', '2000-10-05', 'Admin', GETDATE(), NULL, NULL),
+('987654321', 'María', 'López', 'Martínez', '2000-03-10', 'Admin', GETDATE(), NULL, NULL),
+('456789123', 'Carlos', 'Gutiérrez', 'Ramírez', '2000-07-03', 'Admin', GETDATE(), NULL, NULL),
+('321654987', 'Ana', 'Hernández', 'Pérez', '2001-05-12', 'Admin', GETDATE(), NULL, NULL),
+('159753486', 'Laura', 'Morales', 'Soto', '2001-10-05', 'Admin', GETDATE(), NULL, NULL)
 
 INSERT INTO CURSOS (NOMBRE, DESCRIPCION, ADICIONADO_POR, FECHA_ADICION, MODIFICADO_POR, FECHA_MODIFICACION)
 VALUES 
