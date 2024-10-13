@@ -42,7 +42,7 @@ namespace WebAPI.Controllers
         [HttpPost]
         [Route("crear")]
         public async Task<ActionResult<EstudianteModel>> PostEstudiante([FromBody] EstudianteModel estudiante)
-        {
+        { 
             _context.Estudiantes.Add(estudiante);
             await _context.SaveChangesAsync();
 
