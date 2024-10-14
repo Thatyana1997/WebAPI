@@ -24,8 +24,8 @@ VALUES
 
 INSERT INTO MATRICULA (ESTUDIANTE_ID, CURSO_ID, FECHA_MATRICULA, ADICIONADO_POR, FECHA_ADICION, MODIFICADO_POR, FECHA_MODIFICACION)
 VALUES 
-    (1, 2, GETDATE(), 'Admin', GETDATE(), NULL, NULL), -- Juan Pérez se matricula en Programación I
-    (2, 1, GETDATE(), 'Admin', GETDATE(), NULL, NULL), -- María Gómez se matricula en Matemáticas I
-    (3, 3, GETDATE(), 'Admin', GETDATE(), NULL, NULL), -- Carlos Rodríguez se matricula en Bases de Datos
-    (4, 4, GETDATE(), 'Admin', GETDATE(), NULL, NULL), -- Ana Martínez se matricula en Física I
-    (5, 5, GETDATE(), 'Admin', GETDATE(), NULL, NULL); -- Luis Torres se matricula en Química I
+    (55, 2, GETDATE(), 'Admin', GETDATE(), NULL, NULL), -- Juan Pérez se matricula en Programación I
+    (56, 1, GETDATE(), 'Admin', GETDATE(), NULL, NULL), -- María Gómez se matricula en Matemáticas I
+    (58, 3, GETDATE(), 'Admin', GETDATE(), NULL, NULL), -- Carlos Rodríguez se matricula en Bases de Datos
+    (58, 4, GETDATE(), 'Admin', GETDATE(), NULL, NULL), -- Ana Martínez se matricula en Física I
+    (60, 5, GETDATE(), 'Admin', GETDATE(), NULL, NULL); -- Luis Torres se matricula en Química I
